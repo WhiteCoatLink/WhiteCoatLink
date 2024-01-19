@@ -3,7 +3,7 @@ import { About, Footer, Header, Landing } from "./Router";
 
 function App() {
   return (
-    <div>
+    <div className="font-sans">
       <Router>
         <Header />
         <Routes>
