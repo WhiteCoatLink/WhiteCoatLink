@@ -6,7 +6,7 @@ function App() {
   const { isAuthenticated } = useAuth0();
 
   return (
-    <div className="font-sans">
+    <div>
       <Router>
         <Header />
         <Routes>
