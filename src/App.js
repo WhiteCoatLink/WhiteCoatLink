@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { About, Contact, Doctor, DoctorDetails, Footer, Header, Home, Landing, Services } from "./Router";
 import { useAuth0 } from "@auth0/auth0-react";
+import './App.css';
 
 function App() {
   const { isAuthenticated } = useAuth0();

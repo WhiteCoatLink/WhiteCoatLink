@@ -31,6 +31,12 @@
   .text__para{
     @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px]
   } 
+  .header {
+    @apply bg-[url("./assets/mask.png")] bg-no-repeat bg-center bg-cover w-full leading-[100px]
+  }
+  .hero__section {
+    @apply bg-[url("./assets/hero-bg.png")] bg-no-repeat bg-center bg-cover
+  }
 }
 
 @media only screen and (max-width:1024px) {
